@@ -1,5 +1,5 @@
-#include"searching.h"
 #include<bits/stdc++.h>
+#include"searching.h"
 using namespace std;
 int main(){
 	int n;
@@ -10,7 +10,7 @@ int main(){
 	}
 	int val;
 	cin>>val;
-	if(search(arr,val)){
+	if(search_custom(arr,val)){
 		cout<<"Found"<<endl;
 	}
 	else{
